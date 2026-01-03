@@ -11,8 +11,6 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     // 声明物品对象
-    // public static final Item LAPTOP;
-
     private static void Registry_Item(String modid,String item_name){
         final Item NEWITEM;
         Identifier itemId = Identifier.of(modid,item_name);
@@ -29,6 +27,6 @@ public class ModItems {
     // 初始化方法（供主类调用以触发类加载）
     public static void initialize() {
         Registry_Item("testmod","phone");
-        System.out.println("[test-mod] ModItems 类已加载");
+        System.out.println("[testmod] ModItems is loaded.");
     }
 }

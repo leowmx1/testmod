@@ -30,6 +30,7 @@ public class ModBlocks {
 
     public static void initialize() {
         registerBlocks("testmod", "laptop");
+        System.out.println("[testmod] ModBlocks is loaded.");
     }
 
 }
