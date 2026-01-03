@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "testmod:block/laptop" },
+    "facing=east": { "model": "testmod:block/laptop", "y": 90 },
+    "facing=south": { "model": "testmod:block/laptop", "y": 180 },
+    "facing=west": { "model": "testmod:block/laptop", "y": 270 }
+  }
+}

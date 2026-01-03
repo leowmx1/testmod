@@ -1,0 +1,39 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "testmod:block/laptop/top",
+    "top": "testmod:block/laptop/top",
+    "bottom": "testmod:block/laptop/bottom",
+    "front": "testmod:block/laptop/front",
+    "back": "testmod:block/laptop/back",
+    "side": "testmod:block/laptop/side"
+  },
+  "elements": [
+    {
+      "comment": "Laptop base (keyboard part)",
+      "from": [0, 0, 0],
+      "to": [16, 1, 14],
+      "faces": {
+        "down": { "texture": "#bottom", "cullface": "down" },
+        "up": { "texture": "#top" },
+        "north": { "texture": "#side" },
+        "east": { "texture": "#side" },
+        "south": { "texture": "#side" },
+        "west": { "texture": "#side" }
+      }
+    },
+    {
+      "comment": "Laptop screen",
+      "from": [0, 1, 14],
+      "to": [16, 11, 12],
+      "faces": {
+        "north": { "texture": "#front" },
+        "south": { "texture": "#back" },
+        "east": { "texture": "#front" },
+        "west": { "texture": "#front" },
+        "up": { "texture": "#side" },
+        "down": { "texture": "#side" }
+      }
+    }
+  ]
+}
