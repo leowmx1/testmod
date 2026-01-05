@@ -8,8 +8,5 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(MinecraftServer.class)
 public class ExampleMixin {
-	@Inject(method = "createWorlds", at = @At("TAIL"))
-    private void afterCreateWorlds(CallbackInfo ci) {
-        // 世界已经创建完成
-    }
+	
 }
